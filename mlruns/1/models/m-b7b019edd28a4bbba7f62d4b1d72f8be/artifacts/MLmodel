@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/vecha/OneDrive/Desktop/Mobile_price_prediction/mlruns/1/models/m-b7b019edd28a4bbba7f62d4b1d72f8be/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-b7b019edd28a4bbba7f62d4b1d72f8be
+model_size_bytes: 10141
+model_uuid: m-b7b019edd28a4bbba7f62d4b1d72f8be
+prompts: null
+run_id: fac208e744204bf8b062154344c561e8
+utc_time_created: '2026-10-02 09:16:58.577933'

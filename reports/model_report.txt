@@ -1,0 +1,22 @@
+Mobile Price Prediction - Model Evaluation
+==========================================
+
+Accuracy: 0.8775 (87.75%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.95       100
+           1       0.81      0.84      0.82       100
+           2       0.82      0.79      0.81       100
+           3       0.94      0.93      0.93       100
+
+    accuracy                           0.88       400
+   macro avg       0.88      0.88      0.88       400
+weighted avg       0.88      0.88      0.88       400
+
+Confusion Matrix:
+[[95  5  0  0]
+ [ 6 84 10  0]
+ [ 0 15 79  6]
+ [ 0  0  7 93]]

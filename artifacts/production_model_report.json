@@ -1,0 +1,23 @@
+{
+    "registry_status": "READY_FOR_DEPLOYMENT",
+    "model_lineage": {
+        "registered_name": "Mobile_Price_Production_Model",
+        "version": 2,
+        "alias": "champion",
+        "current_stage": "Production",
+        "run_id": "f9375137b8804eb89945b4748754dfc0",
+        "artifact_uri": "models:/m-c9045c9bfb6a4738bd2238f171e4991c"
+    },
+    "performance_metrics": {
+        "accuracy": 0.965,
+        "precision_macro": 0.9650445632798574,
+        "recall_macro": 0.965,
+        "f1_macro": 0.9649863177272501
+    },
+    "hyperparameters": {
+        "model_type": "LogisticRegression",
+        "C": "1.0",
+        "max_iter": "1000"
+    },
+    "preprocessing_dependency": "models/preprocessor.pkl"
+}

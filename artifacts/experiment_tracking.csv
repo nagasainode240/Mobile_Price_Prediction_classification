@@ -1,0 +1,7 @@
+experiment_id,timestamp,model,dataset,test_size,random_state,accuracy,status
+20260930_231304,2026-09-30T23:13:04,Current model from src/train.py,Mobile Price Classification,0.2,42,0.8775,SUCCESS
+20260930_235849,2026-09-30T23:58:49,Current model from src/train.py,Mobile Price Classification,0.2,42,,FAILED
+20260930_235928,2026-09-30T23:59:28,Current model from src/train.py,Mobile Price Classification,0.2,42,0.8775,SUCCESS
+20261002_143538,2026-10-02T14:35:38,Current model from src/train.py,Mobile Price Classification,0.2,42,,FAILED
+20261002_143835,2026-10-02T14:38:35,Current model from src/train.py,Mobile Price Classification,0.2,42,,FAILED
+20261002_144108,2026-10-02T14:41:08,Current model from src/train.py,Mobile Price Classification,0.2,42,0.8775,SUCCESS
